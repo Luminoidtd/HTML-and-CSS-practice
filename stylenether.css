@@ -1,0 +1,141 @@
+@font-face {
+        font-family: minecraft;
+        src: url(Fonts/Minecraft.ttf);
+    }
+
+body{
+    background-color: black;
+    background-image: url(Images/Netherrack_background_BE2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+     color: white; font-family: minecraft; letter-spacing: 5px ;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+h5{
+    color: white;
+}
+li{
+    color: white;
+}
+p{
+    color: white;
+}
+#clicking{
+    background-color: white;
+}
+#text1{
+    text-shadow: 5px 5px 10px rgb(251, 255, 0);
+}
+#table1{
+    box-shadow: 5px 5px 10px hotpink; margin: auto;
+}
+#img1{
+    float: left;
+}
+#textarea1{
+    color: red;
+    border: 2px groove;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+}
+button:hover{
+    background-color: rgb(199, 255, 199);
+}
+button:active{
+    background-color: rgb(18, 255, 176);
+}
+p:hover{
+    background-color: hotpink;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pagination a.active{
+    padding: 6px;
+    background-color: grey;
+    border-radius: 5px;
+}
+.pagination a:not(.active){
+    opacity: 50%;
+
+}
+.pagination a:hover:not(.active){
+    opacity: 100%;
+
+}
+form{
+    color: rgb(102, 255, 102);
+}
+#Overworld{
+    font-family: minecraft;
+    color: rgb(0, 167, 89);
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 5px;
+    background-color: rgb(134, 54, 1);
+    height: 50px;
+    width: 150px
+}
+#Nether{
+    font-family: minecraft;
+    color: rgb(255, 0, 0);
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 5px;
+    background-color: rgb(80, 14, 2);
+    height: 50px;
+    width: 150px
+}
+#Sift{
+    font-family: minecraft;
+    color: rgb(236, 5, 167);
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 5px;
+    background-color: turquoise;
+    height: 50px;
+    width: 150px
+}
+#End{
+    font-family: minecraft;
+    color: purple;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 5px;
+    background-color: rgb(206, 204, 127);
+    height: 50px;
+    width: 150px
+}
+#Box{
+    background-color: blanchedalmond;
+    width: 208px;
+    height: 250px;
+    align-self: center;
+    background-image: url(Images/lavachiken.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    
+}
+@keyframes slideLeft {
+    from{transform: translateX(1000px);}
+}
+@keyframes slideRight {
+    from{transform: translateX(-1000px)}
+}
